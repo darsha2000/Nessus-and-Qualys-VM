@@ -15,44 +15,46 @@ Nessus is to identify and assess security vulnerabilities in systems, networks, 
 ### Usage
 I have used Nessus for Scanning Vulnerability for Windows VM and metasploitable 2 vm these are the steps have been followed 
 
-## Steps
-Step1- Setting UP VMs
-Install windows vm and metasploitable 2 server from google
+### Steps
+Step1 
+- Setting UP VMs
+- Install windows vm and metasploitable 2 server from google
 links
 ```python
 https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
 https://sourceforge.net/projects/metasploitable/files/latest/download
 ```
-after that configure the setting leave all default,but network adopter should be in Bridged(Automatic) option
+- after that configure the setting leave all default,but network adopter should be in Bridged(Automatic) option
 
-step 2-Installation of Nessus
-Now install Nessus 
+step 2 
+- Installation of Nessus
+- Now install Nessus 
 ```python
 https://www.tenable.com/downloads/nessus?loginAttempted=true
 ```
-choose the platform as windows 84 and 64 bits, if use are using other os change the platform
+- choose the platform as windows 84 and 64 bits, if use are using other os change the platform
+- Fill name and email they will send a activation key to your email
+- Installshield Wizard will appear click install and finish
+- It automatically goes to browser with a welcome page of nessus
+- save the url it should be like localhost:8834/WelcomeToNessus-Install/welcome
+- click on connect via ssl browser will show warning like not safe use advanced option and processed 
+- it will show initializing the process will take time
+- select the free version (note:you should select student purpose its free trail you should select before entering username and password ) 
+- enter name and email if you filled at starting skip it 
+- enter activation code
+- enter username and password remember them and submit 
+- it will show initializing
+- u will get a login page
+step 4
+- u have to enter your username and password
+- u will go to a Nessus dashboard
+- u will find multiple types of scanning options like host mobile etc
+- choose the basic scan and enter the ip address of the machine that u have to scan
+- give the credentials of the machine it will take 8-10 mins
+- u will get the report with priority then solve the vulnerability patch the system software
+- and the run again
 
-Fill name and email they will send a activation key to your email
-
-Installshield Wizard will appear click install and finish
-
-It automatically goes to browser with a welcome page of nessus
-
-save the url it should be like localhost:8834/WelcomeToNessus-Install/welcome
-
-click on connect via ssl browser will show warning like not safe use advanced option and processed 
-
-it will show initializing the process will take time
-
-select the free version (note:you should select student purpose its free trail you should select before entering username and password ) 
-
-enter name and email if you filled at starting skip it 
-
-enter activation code
-
-enter username and password remember them and submit
-
-it will show initializing
+vulnerability management is a process which has to be performed often due to software updates new malwares 
 
 
 

@@ -54,7 +54,22 @@ step 4
 - u will get the report with priority then solve the vulnerability patch the system software
 - and the run again
 
-vulnerability management is a process which has to be performed often due to software updates new malwares 
+vulnerability management is a process that has to be performed often due to software updates new malware 
+
+# Qualys VM
+
+It's a cloud-based application
+main point to be remembered in VM they are
+
+- preparation(asset management, hardware)
+- Vulnerability identification
+- risk management (cvss score)
+- threat analysis
+- prioritization like risk range
+- remediation patches
+- verification rescan report compliance
+- continuous improvement
+
 
 
 
